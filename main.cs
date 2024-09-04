@@ -13,7 +13,6 @@ class Program {
   }
   private static string PersonalInfo(string firstName, string lastName, string DOB, string workNumber, string homeNumber) 
   { 
-    return firstName +' '+ lastName +' '+ DOB +' '+ workNumber +' '+ homeNumber; 
+    return firstName +' '+ lastName +Environment.NewLine+ DOB +Environment.NewLine+ workNumber +Environment.NewLine+ homeNumber+Environment.NewLine; 
   }
 }
-
